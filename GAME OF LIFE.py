@@ -28,8 +28,8 @@ print(A)
 
   
   
-#Bu satırlar kodun en önemli bölümüdür.
-#Ulaşmak için cirpanrafet@gmail.com a mail atın.
+#Bu satırlar kodun Veri Yapıları dersinin sabit ödevi olması nedeniyle gizlenmiştir.
+
     
 window.mainloop()
 
