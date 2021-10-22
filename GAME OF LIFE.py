@@ -28,7 +28,15 @@ print(A)
 
   
   
-#Bu satırlar kodun Veri Yapıları dersinin sabit ödevi olması nedeniyle gizlenmiştir.
+for i in range(0,len(A)):
+    for j in range(0,len(A[i])):
+       if i >= 1:
+          if A[i][j] == LIVE:
+             label = tk.Label(window,relief=tk.RAISED,width=1,height=1,bg="black")        
+             label.grid(row=i,column=j)  
+          elif A[i][j] == DEAD:
+             label = tk.Label(window,relief=tk.RAISED,width=1,height=1,bg="white")        
+             label.grid(row=i,column=j)
 
     
 window.mainloop()
